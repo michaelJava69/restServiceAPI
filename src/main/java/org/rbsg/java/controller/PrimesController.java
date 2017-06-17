@@ -35,7 +35,11 @@ import net.sf.ehcache.Element;
  *  
  */
  
-//@Controller and it will dopuble map it 
+//@Controller 
+/*
+ * will not work. Results in https//localhost:8080/restServiceApi/primes/primes/10 
+ */
+
 @RestController   
 public class PrimesController {
 
