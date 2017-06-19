@@ -69,7 +69,7 @@ public class PrimesController {
 	   	
 	     PrimeNumberService primeService = new PrimeNumberService();
 
-	   	 // Ehcache not woking so my custom cache
+	   	 // Ehcache not working so my custom cache
 	     // CacheManager.getInstance().addCache("xyz"); // creates a cache called xyz.
 	     
 	   	 final PrimesResponse primesResponse; 
